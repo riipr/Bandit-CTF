@@ -1,0 +1,3 @@
+cat data.txt | sort | uniq --unique
+
+EN632PlfYiZbn3PhVK3XOGSlNInNE00t
