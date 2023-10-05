@@ -1,0 +1,12 @@
+nmap localhost -p31000-32000
+check 1-1 port
+echo "JQttfApK4SeyHwDlI9SXGR50qclOAil1" | openssl s_client -connect localhost:31790 -ign_eof
+
+copy-paste RSA private key and then logout
+
+vim otwsshkeylog.private
+chmod 0400 otwsshkeylog.private
+ssh -1 otwsshkeylog.private bandit17@bandit.labs. overthewire.org -p 2220
+
+ssh -i otwsshkeylog.private bandit17@bandit.labs.overthewire.org -p 2220
+diff passwords.old passwords.new
